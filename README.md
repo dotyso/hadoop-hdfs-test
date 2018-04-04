@@ -6,7 +6,7 @@ hdfs测试
 2) 如访问http://master:50070
 
 2. 修改 vim ./etc/hadoop/core-site.xml
-  <configuration>
+<configuration>
 <property>
   <name>fs.default.name</name>
     <value>hdfs://130.101.2.134:9000</value>
